@@ -7,6 +7,9 @@ header {
     width: 940px;
     margin: 0 auto;
 }
+body {
+    background-image: url(https://png.pngtree.com/element_our/png_detail/20181126/leaves-falling-png_247951.jpg);
+}
 nav {
     position: absolute;
     top: 110px;
@@ -27,18 +30,18 @@ nav a:hover {
     color: #C78C19;
     text-decoration: underline;
 }  
-#topico_inicial {
+.topico_inicial {
     text-align: center;
     font-weight: bold;
     font-size: 60px;
     padding-top: 20px;
 }
-.produtos {
+.lugares {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
-.produtos li {
+.lugares li {
     text-align: center;
     display:inline-block ;
     width: 30%;
@@ -51,27 +54,37 @@ nav a:hover {
     border-style: solid; /* TEMOS VARIOS ESTILOS DE BORDA COMO O SOLID, O DASHED, DOTTED */
     border-radius: 10px;
 }
- .produtos li:hover {
+ .lugares li:hover {
     border-color:#C78C19 ;
 }
-.produtos li:active {
+.lugares li:active {
     border-color: green;
 }
-.produtos li:hover h2 {
+.lugares li:hover h2 {
     font-size: 35px;
 
 }
-.produtos h2 {
+.lugares h2 {
     font-size: 30px;
     font-weight: bold;
 }
-.produto-descrição {
+.lugares-descrição {
     font-size:18px;
 }
-.produto-preço {
+.tel-num {
     font-size: 22PX;
     font-weight: bold;
     margin-top: 10px;
+}
+.cobra_lugar {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+#cobra_selva {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 footer {
     text-align: center;
