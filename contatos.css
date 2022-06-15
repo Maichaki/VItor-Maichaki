@@ -7,6 +7,9 @@ header {
     width: 940px;
     margin: 0 auto;
 }
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-tropical-com-espaco-em-branco_52683-36521.jpg?w=2000);
+}
 nav {
     position: absolute;
     top: 110px;
@@ -62,18 +65,6 @@ form label, form legend {
 }
 .enviar:hover {
     background-color: darkorange;
-}
-table {
-    margin: 20px 0 40px;
-}
-thead {
-    background-color: #555555;
-    color: white;
-    font-weight: bold;
-}
-td, th {
-    border: 1px solid #000000;
-    padding: 15px 8px;
 }
 footer {
     text-align: center;
