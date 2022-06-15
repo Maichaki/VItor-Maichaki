@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contatos.css">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="imgs/cobra-removebg-preview.png" alt="logo da barbearia Alura" srcset=""></h1>
+            <nav>
+                <ul type="Square">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre_nos.html">Sobre nós</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+      <form>
+        <label for="nome e sobrenome">Nome e sobrenome</label>
+        <input class="input-padrao" type="text" id="nome e sobrenome" required placeholder="Seu Nome Aqui">
+        
+        <label for="Email">Email</label>
+        <input class="input-padrao" type="email" id="Email" required placeholder="Seuemail@dominio.com">
+
+        <label for="Telefone">Telefone</label>
+        <input class="input-padrao" type="tel" id="Telefone" required placeholder="(XX) XXXXX-XXXX">
+
+        <label for="Msg">Mensagem</label>
+        <textarea class="input-padrao" name="" id="Msg" cols="70" rows="10"></textarea>
+ 
+        <fieldset>
+        <legend>Como prefere nosso contato</legend>
+        <label for="radio-email"> <input type="radio" name="Contato" value="email" id="radio-email"> Email</label>
+
+        <label for="radio-telefone"> <input type="radio" name="Contato" value="Telefone" id="radio-telefone"> Telefone</label>
+
+        <label for="radio-whatsapp"> <input type="radio" name="Contato" value="Whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+        </fieldset>
+
+        <label for=""> <input class="checkbox" type="checkbox" name="" id="" checked> Gostaria de receber nossas novidades por email?</label>
+
+        <input type="Submit" value="Enviar Formulário" class="enviar">
+        </div>
+        </form>
+    </main>
+    <footer>
+        <img src="imgs/cobra-transparente.png" alt="Logo da barbearia Alura">
+        <p class="copyright">&#169; CopyRight SOS COBRA - 2022 </p>
+    </footer>
+</body>
+</html>
